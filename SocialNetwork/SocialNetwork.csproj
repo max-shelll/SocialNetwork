@@ -13,8 +13,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="DAL\DB\social_network.db">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="DAL\DB\social_network_bd.db">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 
